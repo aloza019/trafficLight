@@ -11,3 +11,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 125px;
+
+}
+
+#container {
+
+background-color: black;
+width: 150px;
+height: 250px;
+padding: 30px;
+margin-left: 50px;
+}
+
+.light{
+    width: 70px;
+    height: 73px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    &.red {background-color: red;}
+    &.yellow { background-color: yellow;}
+    &.green { background-color: green;}
+    &.selected {box-shadow: #f8ffcc 0px 0px 50px 20px;}
+
+
+}
